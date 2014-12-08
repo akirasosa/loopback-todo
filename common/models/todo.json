@@ -1,9 +1,19 @@
 {
-  "name": "todo",
+  "name": "Todo",
   "base": "PersistedModel",
-  "properties": {},
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "done": {
+      "type": "boolean",
+      "required": false
+    }
+  },
   "validations": [],
   "relations": {},
   "acls": [],
   "methods": []
 }
+
